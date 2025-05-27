@@ -130,6 +130,19 @@ nav button {
     padding-top: 40px;
 }
 
+
+
+.chefs {
+    width: 100%;
+}
+
+.chefs-header {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
 .testimonials {
     width: 100%;
 }
@@ -333,4 +346,23 @@ nav button {
     font-size: 20px;
     color: #333;
     margin: 20px;
+}
+
+#events {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+#events div {
+    width: 33%;
+    height: 70vh;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://127.0.0.1:5503/assets/img/events-slider/events-slider-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
 }
