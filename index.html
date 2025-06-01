@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restoran Saytı</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Restoran Saytı</title>
     <link rel="stylesheet" href="index.css" />
 </head>
 
@@ -15,28 +15,24 @@
 
     <header class="home">
         <nav>
-            <h1>Umud Restoran</h1>
+            <h1>Hope Restaurant</h1>
             <ul>
-                <li><a href="#home">Ana Səhifə</a></li>
-                <li><a href="#about">Haqqımızda</a></li>
-                <li><a href="#menu">Menyu</a></li>
-                <li><a href="#specials">Xüsusi Təkliflər</a></li>
-                <li><a href="#events">Tədbirlər</a></li>
-                <li><a href="#chefs">Şeflər</a></li>
-                <li><a href="#gallery">Qalereya</a></li>
-                <li><a href="#contact">Əlaqə</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./Menu.html">Menu</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
-            <button>Book a Table</button>
+            <button><a href="./reservation.html">Book a Table</a></button>
         </nav>
         <section class="hero-content">
-            <h1>Welcome to Restaurantly</h1>
-            <p>Delivering great food for more than 18 years!</p>
-            <button>OUR MENU</button>
-            <button>BOOK A TABLE</button>
+            <h1>Welcome to Hope Restaurant</h1>
+            <p>Delivering great food for more than 10 years!</p>
+            <button><a href="./Menu.html">OUR MENU</a></button>
+            <button><a href="./reservation.html">BOOK A TABLE</a></button>
         </section>
     </header>
     <main>
-        <section id="about">
+        <!-- <section id="about">
             <div class="about-header">
                 <h1>Restoran Haqqında</h1>
             </div>
@@ -68,29 +64,31 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="why-us">
             <div class="why-us-header">
-                <h1>Niye biz</h1>
+                <h1>Why Us</h1>
             </div>
             <div class="why-us-content">
                 <div>
-                    <h2>Lorem Ipsum</h2>
-                    <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                    <h2>1</h2>
+                    <h2>Fresh & Local Ingredients</h2>
+                    <p>We use only fresh, locally-sourced ingredients to ensure every dish is bursting with flavor and quality.</p>
                 </div>
                 <div>
-                    <h2>Repellat Nihil</h2>
-                    <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno
-                        para dest</p>
+                    <h2>2</h2>
+                    <h2>Experienced Chefs</h2>
+                    <p>Our talented chefs craft each meal with passion and creativity, blending tradition with innovation.</p>
                 </div>
                 <div>
-                    <h2>Ad ad velit qui</h2>
-                    <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                    <h2>3</h2>
+                    <h2>Cozy Atmosphere & Fast Service</h2>
+                    <p>Enjoy your meal in a warm, welcoming environment with friendly staff and quick service every time.</p>
                 </div>
             </div>
         </section>
 
-        <section class="menu">
+        <!-- <section class="menu">
             <div class="menu-header">
                 <h1>Menyu</h1>
             </div>
@@ -124,11 +122,11 @@
                     <p>$5.95</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="specials">
             <div class="specials-header">
-                <h1>Xüsusi Təkliflər</h1>
+                <h1>Featured Dishes</h1>
             </div>
             <div class="specials-items">
                 <div class="specials-item">
@@ -145,12 +143,43 @@
                     <p>Lorem, deren, trataro, filede, nerada</p>
                     <p>$5.95</p>
                 </div>
+                <div class="specials-item">
+                    <img src="http://127.0.0.1:5501/assets/img/menu/menu-item-1.png" alt="">
+                    <h1>
+                        Magnam Tiste</h1>
+                    <p>Lorem, deren, trataro, filede, nerada</p>
+                    <p>$5.95</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="events">
+            <div class="event">
+                <h2>Future event</h2>
+                <p>$290</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+            </div>
+            <div class="event">
+                <h2>Future event</h2>
+                <p>$290</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
+            </div>
+            <div class="event">
+                <h2>Future event</h2>
+                <p>$290</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua.</p>
             </div>
         </section>
 
         <section id="testimonials">
             <div class="testimonials-header">
-                <h1>Müştəri Rəyləri</h1>
+                <h1>Testimonials</h1>
             </div>
             <div class="testimonials-content">
                 <div class="testimonials-item">
@@ -201,28 +230,7 @@
             </div>
         </section>
 
-        <section id="events">
-            <div class="event">
-                <h2>Gələcək Tədbirlər</h2>
-                <p>$290</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
-            <div class="event">
-                <h2>Gələcək Tədbirlər</h2>
-                <p>$290</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
-            <div class="event">
-                <h2>Gələcək Tədbirlər</h2>
-                <p>$290</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
-            </div>
-        </section>
-
-        <section id="chefs">
+        <!-- <section id="chefs">
             <div class="chefs-header">
                 <h1>Restoran Şefləri</h1>
             </div>
@@ -252,31 +260,52 @@
                         tempor labore quem eram duis noster aute amet eram fore quis sint minim.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <!-- GALLERY -->
-        <section id="gallery">
-            <h2>Qalereya</h2>
-        </section>
+        <!-- <section id="gallery">
+            <div class="gallery-header">
+                <h1>Gallery</h1>
+            </div>
+            <div id="gallery-content">
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+                <div>
+                    <img src="http://127.0.0.1:5502/assets/img/gallery/gallery-6.jpg" alt="">
+                </div>
+            </div>
+        </section> -->
 
-        <!-- BOOK A TABLE -->
-        <section id="book">
+        <!-- <section id="book">
             <h2>Rezervasiya</h2>
-            <!-- Form -->
-        </section>
+        </section> -->
 
-        <!-- CONTACT -->
-        <section id="contact">
+        <!-- <section id="contact">
             <h2>Əlaqə</h2>
-            <!-- Əlaqə məlumatları və forma -->
-        </section>
+        </section> -->
 
     </main>
-    <!-- FOOTER -->
     <footer>
-        <p>© 2025 Restoran adı. Bütün hüquqlar qorunur.</p>
+        <p>© 2025 Umud Restoran. Bütün hüquqlar qorunur.</p>
     </footer>
-
     <script src="index.js"></script>
 </body>
 
