@@ -55,5 +55,5 @@ buttons.forEach(button => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadMeals('All');  // Səhifə açılan kimi All kateqoriyasını yüklə
+  loadMeals('All');
 });

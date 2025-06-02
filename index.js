@@ -3,10 +3,10 @@ const specialsItemsDiv = document.querySelector('.specials-items');
 function loadFeaturedDishesFromAPI() {
   specialsItemsDiv.innerHTML = '<p>Yüklənir...</p>';
 
-  fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=')  // ümumi yeməklər
+  fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=')
     .then(res => res.json())
     .then(data => {
-      let meals = data.meals ? data.meals.slice(4, 7) : []; // 3 featured yemək
+      let meals = data.meals ? data.meals.slice(4, 7) : [];
       specialsItemsDiv.innerHTML = '';
 
       if (meals.length === 0) {
