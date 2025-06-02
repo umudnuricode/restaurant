@@ -126,7 +126,7 @@ function loadFeaturedDishesFromAPI() {
   fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=')  // ümumi yeməklər
     .then(res => res.json())
     .then(data => {
-      let meals = data.meals ? data.meals.slice(0, 3) : []; // 3 featured yemək
+      let meals = data.meals ? data.meals.slice(4, 7) : []; // 3 featured yemək
       specialsItemsDiv.innerHTML = '';
 
       if (meals.length === 0) {
