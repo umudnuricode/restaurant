@@ -56,7 +56,7 @@ nav button a {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://127.0.0.1:5502/assets/img/hero-bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./hero-bg.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -193,6 +193,7 @@ nav button a {
     width: 100%;
     text-align: center;
     font-size: 25px;
+    margin: 30px 0px;
 }
 
 
@@ -251,11 +252,11 @@ nav button a {
 
 .menu-items div img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
 }
 
-.menu-items div h2 {
+.menu-items div h1 {
     font-size: 24px;
     margin: 20px 0;
 }
@@ -263,6 +264,7 @@ nav button a {
 .menu-items div p {
     font-size: 18px;
     color: #555;
+    margin: 20px 0;
 }
 
 
@@ -422,15 +424,15 @@ nav button a {
 }
 
 .event1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://127.0.0.1:5503/assets/img/events-slider/events-slider-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./events-slider-1.jpg);
 }
 
 .event2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://127.0.0.1:5503/assets/img/events-slider/events-slider-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./events-slider-2.jpg);
 }
 
 .event3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://127.0.0.1:5503/assets/img/events-slider/events-slider-3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./events-slider-3.jpg);
 }
 
 #gallery-content {
@@ -536,4 +538,15 @@ footer {
 
 .reservation-form form button:hover {
     background-color: #d00;
+}
+
+
+
+
+#events div h2 {
+    margin-bottom: 20px;
+}
+
+#events div p {
+    margin-bottom: 20px;
 }
