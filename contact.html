@@ -46,12 +46,22 @@
                     <p>Mon-Sat: 11:00 AM - 23:00 PM</p>
                 </div>
             </div>
-            <div class="contact-form">
-                <form action="#" method="post">
-                    <input type="text" name="name" placeholder="Your Name" required>
+            <!-- <div class="contact-form">
+                <form action="https://formspree.io/f/xgvyevyj" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required minlength="3" maxlength="50">
                     <input type="email" name="email" placeholder="Your Email" required>
-                    <input type="text" name="subject" placeholder="Subject" required>
-                    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                    <input type="text" name="subject" placeholder="Subject" required minlength="3" maxlength="100">
+                    <textarea name="message" rows="5" placeholder="Message" required minlength="10" maxlength="1000"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div> -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <input type="text" name="name" placeholder="Your Name *" minlength="3" maxlength="50" required>
+                    <input type="email" name="email" placeholder="Your Email *" required>
+                    <input type="text" name="subject" placeholder="Subject *" minlength="3" maxlength="100" required>
+                    <textarea name="message" rows="5" placeholder="Message *" minlength="10" maxlength="1000"
+                        required></textarea>
                     <button type="submit">Send Message</button>
                 </form>
             </div>
@@ -59,6 +69,7 @@
     <footer>
         <p>© 2025 Umud Restoran. Bütün hüquqlar qorunur.</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

@@ -23,15 +23,15 @@
         <div class="book-header">
             <h1>Rezervasiya</h1>
         </div>
-        <div class="contact-form">
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <input type="text" name="phone" placeholder="Your Phone" required>
+        <div class="reservation-form">
+            <form id="reservationForm">
+                <input type="text" name="name" placeholder="Your Name *" minlength="3" maxlength="50" required>
+                <input type="email" name="email" placeholder="Your Email *" required>
+                <input type="tel" name="phone" placeholder="Your Phone *" required>
                 <input type="date" name="date" required>
-                <input type="time" name="time" required>
-                <input type="number" name="guests" placeholder="Qonaq sayı" required>
-                <textarea name="special_requests" rows="4" placeholder="Xüsusi tələblər (əgər varsa)"></textarea>
+                <input type="time" name="time" min="09:00" max="22:00" step="900" required>
+                <input type="number" name="guests" placeholder="Qonaq sayı *" min="1" max="100" required>
+                <textarea name="special_requests" rows="4" placeholder="Xüsusi tələblər (əgər varsa)" maxlength="300"></textarea>
                 <button type="submit">Rezervasiya et</button>
             </form>
         </div>
@@ -39,6 +39,7 @@
     <footer>
         <p>© 2025 Umud Restoran. Bütün hüquqlar qorunur.</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
